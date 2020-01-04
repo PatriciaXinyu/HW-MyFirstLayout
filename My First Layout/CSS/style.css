@@ -1,0 +1,64 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.XinyuHuang {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 25px 0 25px 0;
+    font-size: 20px;
+}
+
+.NevBar {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "Left""right";
+    column-gap: 122px;
+    margin: 10%;
+}
+
+img {
+    width: 536px;
+    height: 536px;
+}
+
+.center-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-info {
+    display: flex;
+}
+
+.right {
+    font-size: large;
+    letter-spacing: normal;
+}
